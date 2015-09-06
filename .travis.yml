@@ -1,5 +1,5 @@
 language: objective-c
 script:
   - brew update
-  - xcodebuild -workspace abc.xcworkspace -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xcodebuild test -workspace abc.xcworkspace -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool -workspace abc.xcworkspace -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace abc.xcworkspace -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

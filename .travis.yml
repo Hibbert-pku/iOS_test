@@ -1,4 +1,4 @@
 language: objective-c
 script:
   - xctool -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xctool test -scheme iOS_testTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

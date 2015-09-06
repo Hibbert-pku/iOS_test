@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AD76517-A2EB-4A29-B8F2-C6A5CB646B9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>abc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F682683C0C36DCE472FFA237516F8C06D55C96C7</key>
+		<string>https://github.com/Hibbert-pku/iOS_test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>abc.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F682683C0C36DCE472FFA237516F8C06D55C96C7</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hibbert-pku/iOS_test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F682683C0C36DCE472FFA237516F8C06D55C96C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F682683C0C36DCE472FFA237516F8C06D55C96C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_test</string>
+		</dict>
+	</array>
+</dict>
+</plist>

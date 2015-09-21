@@ -6,8 +6,11 @@
 //  Copyright (c) 2015年 Lab. All rights reserved.
 //
 
-#ifndef iOS_test_Son1_h
-#define iOS_test_Son1_h
+#import <Foundation/Foundation.h>
+#import "Father.h"
 
+@interface Son1 : Father
 
-#endif
+- (NSString *) Func;
+
+@end

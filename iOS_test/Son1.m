@@ -6,4 +6,13 @@
 //  Copyright (c) 2015年 Lab. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Son1.h"
+
+@implementation Son1
+
+- (NSString *) Func {
+    NSString *x = @"abc";
+    return x;
+}
+
+@end

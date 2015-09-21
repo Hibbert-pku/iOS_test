@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246158CE1BAAD66E00FF967B /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 246158CD1BAAD66E00FF967B /* Father.m */; };
+		246158D11BAAD6AD00FF967B /* Son1.m in Sources */ = {isa = PBXBuildFile; fileRef = 246158D01BAAD6AD00FF967B /* Son1.m */; };
 		248D50DA1B9C28F0003EFCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D50D91B9C28F0003EFCA1 /* main.m */; };
 		248D50DD1B9C28F0003EFCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D50DC1B9C28F0003EFCA1 /* AppDelegate.m */; };
 		248D50E01B9C28F0003EFCA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D50DF1B9C28F0003EFCA1 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246158CC1BAAD5AF00FF967B /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		246158CD1BAAD66E00FF967B /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		246158CF1BAAD6A100FF967B /* Son1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son1.h; sourceTree = "<group>"; };
+		246158D01BAAD6AD00FF967B /* Son1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son1.m; sourceTree = "<group>"; };
 		248D50D41B9C28F0003EFCA1 /* iOS_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248D50D81B9C28F0003EFCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		248D50D91B9C28F0003EFCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 			children = (
 				248D50DB1B9C28F0003EFCA1 /* AppDelegate.h */,
 				248D50DC1B9C28F0003EFCA1 /* AppDelegate.m */,
+				246158CC1BAAD5AF00FF967B /* Father.h */,
+				246158CF1BAAD6A100FF967B /* Son1.h */,
+				246158D01BAAD6AD00FF967B /* Son1.m */,
+				246158CD1BAAD66E00FF967B /* Father.m */,
 				248D50DE1B9C28F0003EFCA1 /* ViewController.h */,
 				248D50DF1B9C28F0003EFCA1 /* ViewController.m */,
 				248D50E11B9C28F0003EFCA1 /* Main.storyboard */,
@@ -163,7 +173,7 @@
 		248D50CC1B9C28F0003EFCA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Lab;
 				TargetAttributes = {
 					248D50D31B9C28F0003EFCA1 = {
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246158D11BAAD6AD00FF967B /* Son1.m in Sources */,
 				248D50E01B9C28F0003EFCA1 /* ViewController.m in Sources */,
+				246158CE1BAAD66E00FF967B /* Father.m in Sources */,
 				248D50DD1B9C28F0003EFCA1 /* AppDelegate.m in Sources */,
 				248D50DA1B9C28F0003EFCA1 /* main.m in Sources */,
 			);
@@ -284,6 +296,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -352,6 +365,7 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-lxb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +378,7 @@
 				INFOPLIST_FILE = iOS_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-lxb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,6 +398,7 @@
 				);
 				INFOPLIST_FILE = iOS_testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-lxb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_test.app/iOS_test";
 			};
@@ -398,6 +414,7 @@
 				);
 				INFOPLIST_FILE = iOS_testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-lxb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_test.app/iOS_test";
 			};

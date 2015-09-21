@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Son1.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Father *a;
+    if (0) {
+        a = [Son1 alloc];
+    } else {
+        a = [Father alloc];
+    }
+    NSLog(@"%@", [a Func]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

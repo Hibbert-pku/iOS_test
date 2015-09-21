@@ -6,8 +6,10 @@
 //  Copyright (c) 2015年 Lab. All rights reserved.
 //
 
-#ifndef iOS_test_Father_h
-#define iOS_test_Father_h
+#import <Foundation/Foundation.h>
 
+@interface Father : NSObject
 
-#endif
+- (NSString *) Func;
+
+@end

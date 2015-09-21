@@ -6,4 +6,12 @@
 //  Copyright (c) 2015年 Lab. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Father.h"
+
+@implementation Father
+
+- (NSString *) Func {
+    return nil;
+}
+
+@end

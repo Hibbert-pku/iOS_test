@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode64
+osx_image: xcode70
 script:
   - brew update
   - xctool -workspace abc.xcworkspace -scheme iOS_test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

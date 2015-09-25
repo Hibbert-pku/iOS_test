@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "Son1.h"
+#import <SafariServices/SafariServices.h>
+
 @interface ViewController ()
 
 @end
@@ -17,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     Father *a;
-    if (0) {
+    
+    if (/* DISABLES CODE */ (0)) {
         a = [Son1 alloc];
     } else {
         a = [Father alloc];
